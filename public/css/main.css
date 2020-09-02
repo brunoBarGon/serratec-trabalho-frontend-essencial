@@ -34,7 +34,10 @@ h1, h3, h4 {
 .navbar-light .nav-item.active .nav-link{
     color: var(--primary-color-dark);
     font-weight: 900;
+    
 }
+
+
 
 .navbar-light .nav-item:hover .nav-link {
     color: var(--primary-color-dark);
@@ -44,6 +47,10 @@ h1, h3, h4 {
 }
 .navbar button{
     color: var(--primary-color);
+}
+.navbar button:hover{
+    background-color: var(--primary-color-dark);
+    color: #fff
 }
 
 footer{

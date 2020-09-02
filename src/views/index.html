@@ -16,7 +16,7 @@
   <div class="container">
 
     <h1>Serratec</h1>
-    <nav class="navbar navbar-expand bg-light navbar-light sticky-top">
+    <nav class="navbar navbar-expand bg-light navbar-light sticky-top pl-0">
       <a href="#" class="navbar-brand">
         <img src="./img/logo.png" alt="Logo">
       </a>
@@ -36,59 +36,29 @@
         </li>
 
       </ul>
-        
+
       <div class="ml-auto">
         <button class="btn btn-light" onclick="window.location.href='/login'">Login</a> </button>
+        <button class="btn btn-light">Sign-up</button>
       </div>
-      
+
     </nav>
 
 
     <div class="row">
-      <div class="col-12 col-lg-6 ">
+      <div class="col-12 col-lg-6 text-justify">
         <h3>Projeto Serratec</h3>
         <p id="txt1"> </p>
 
         <p id="txt2"> </p>
       </div>
       <div class=" col-12 col-lg-6 my-auto">
-        <div id="pictures" class="carousel slide" data-ride="carousel">
+        
+        <video class="img-fluid" autoplay loop>
+          <source src="./img/intro.mp4" type="video/mp4">
+        </video>
 
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#pictures" data-slide-to="0" class="active"></li>
-            <li data-target="#pictures" data-slide-to="1"></li>
-            <li data-target="#pictures" data-slide-to="2"></li>
-          </ul>
-<!-- 
-          <video width="550" height="240" autoplay loop>
-            <source src="./img/intro.mp4" type="video/mp4">
-          </video> -->
-
-          <!-- The slideshow -->
-          <div class="carousel-inner">
-
-            
-            <div class="carousel-item active">
-              <img class="img-fluid" src="img/turma.jpg" alt="Turma">
-            </div>
-            <div class="carousel-item">
-              <img class="img-fluid" src="/img/alunos.jpg" alt="Alunos">
-            </div>
-            <div class="carousel-item">
-              <img class="img-fluid" src="/img/Grupo_5.JPG" alt="Alunos">
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#pictures" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#pictures" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-
-        </div>
+       
       </div>
     </div>
 
@@ -101,8 +71,9 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Frontend</h4>
-            <p class="card-text">Desenvolva sites e webapps com HTML, CSS e JavaScript. 
-              Aprenda as boas práticas e as últimas versões do JavaScript. Estude ferramentas e frameworks do mercado como React e React Native.</p>
+            <p class="card-text">Desenvolva sites e webapps com HTML, CSS e JavaScript.
+              Aprenda as boas práticas e as últimas versões do JavaScript. Estude ferramentas e frameworks do mercado
+              como React e React Native.</p>
           </div>
           <div class="card-footer">
             <a href="" class="card-link">Ler mais</a>
@@ -117,7 +88,8 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Backend</h4>
-            <p class="card-text">Aprenda a Desenvolver Arquiteturas de Cliente - Servidor que Interagem com Aplicações Web. Conheça as boas práticas para 
+            <p class="card-text">Aprenda a Desenvolver Arquiteturas de Cliente - Servidor que Interagem com Aplicações
+              Web. Conheça as boas práticas para
               desenvolvimento de APIs REST e como implementar de forma simples.</p>
           </div>
           <div class="card-footer">
